@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "Edly | Edline Beautifier",
+    "short_name": "Edly",
+    "version": "0.1.2017.407",
+    "version_name": "0.1.2 Beta",
+    "description": "Celebrating 20 years of Edline - giving the old product a new look.",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "logo.png",
+            "24": "logo.png",
+            "32": "logo.png"
+        },
+        "default_title": "Edly",
+        "default_popup": "popup/popup.html"
+    },
+
+    "content_scripts": [{
+        "css": ["edline_script/css/edly.css"],
+        "js": ["edline_script/js/jquery.js","edline_script/js/edly.js"],
+        "matches": [
+            "*://www.edline.net/*"
+        ]
+    }]
+
+}

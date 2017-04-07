@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#ed-menuBar,
+#ed-menuBarContainer {
+    background-color: #fff!important;
+    border: none!important;
+}
+
+body {
+    background-image: none!important;
+    background-color: #fff!important;
+    -webkit-transform: translatez(0)!important;
+    -moz-transform: translatez(0)!important;
+    -ms-transform: translatez(0)!important;
+    -o-transform: translatez(0)!important;
+    transform: translatez(0)!important;
+    display: none;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: 'Roboto', sans-serif!important;
+}
+
+#ghToolbarAreaDiv,
+#ed-menuBarContainer {
+    background-image: none!important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)!important;
+}
+
+.ed-menuButton {
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    cursor: pointer!important;
+}
+
+.ed-menuButton:hover,
+.ed-menuButton.hover,
+.ed-menuButton.onState {
+    background-image: none!important;
+    color: black!important;
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    cursor: pointer!important;
+}
+
+#ghOuterWrapperDiv {
+    background-image: none!important;
+}
+
+.ed-dropDown,
+.ed-bcDropDown ul {
+    background-image: none!important;
+    background: #fff!important;
+    border: none!important;
+    border-radius: 4px!important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)!important;
+}
+
+.ed-dropBGWrap {
+    background-image: none!important;
+}
+
+.ed-listHeader {
+    color: #333!important;
+}
+
+.ed-dropDown a {
+    line-height: 30px!important;
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    color: #333!important;
+    cursor: pointer!important;
+}
+
+.ed-dropDown a:hover {
+    background-image: none!important;
+    background-color: #ccc!important;
+    color: #333!important;
+    cursor: pointer!important;
+}
+
+#ed-indexContainer {
+    background-image: none!important;
+}
+
+.btnCapL,
+.btnContent,
+.btnCapR {
+    background-image: none!important;
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+}
+
+.btnD36 .hovered .btnContent,
+.btnD36 .hovered .btnCapR,
+.btnD36 .hovered .btnCapL {
+    background-color: black!important;
+}
+
+.btnCapR .ed-icon {
+    display: none;
+}
+
+.ed-inputWrapper {
+    background-image: none!important;
+}
+
+#screenName,
+#password {
+    width: 100%;
+    padding: 6px 6px;
+    box-sizing: border-box;
+    border: solid 1px #444;
+}
+
+.edBtn {
+    background-image: none!important;
+    border-width: 0!important;
+    outline: none!important;
+    border-radius: 2px!important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6)!important;
+    background-color: #000!important;
+    color: #ecf0f1!important;
+    transition: background-color .3s!important;
+}
+
+.ed-formTable TD {
+    line-height: 40px!important;
+}
+
+#edlHeaderImage {
+    margin-top: 10px;
+    border-radius: 4px!important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)!important;
+}
+
+.edlBoxArea {
+    background: #fff!important;
+    border: none!important;
+    border-radius: 4px!important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)!important;
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
+
+.jsdomenudiv_EDLINE_MENU {
+    border-radius: 5px;
+    border: none!important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)!important;
+    cursor: pointer!important;
+}
+
+.dbtop,
+.dbbtm {
+    display: none;
+}
+
+.ed-bcDropDown,
+.ed-menuItem#view,
+.ed-menuItem#siteNavHelper,
+.ed-menuItem#help,
+.ed-menuItem#language {
+    visibility: hidden!important;
+}
+
+.jsdomenuitem_EDLINE_MENU {
+    line-height: 30px!important;
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    cursor: pointer!important;
+}
+
+.jsdomenuitemover_EDLINE_MENU {
+    line-height: 30px!important;
+    border: none!important;
+    background-color: #ccc!important;
+    color: #191970!important;
+    cursor: pointer!important;
+}
+
+.edlBoxTitle {
+    border-bottom: solid 1px #ccc !important;
+}
+
+.jsdomenubaritem_EDLINE_MENU {
+    border: none!important;
+    background-color: #fff!important;
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+    cursor: pointer!important;
+}
+
+#edlEdlineMenuBoxArea {
+    padding: 0px 0px 0px 0px!important;
+}
+
+#edlThemeControlZoneFrame {
+    padding: 0px 0px 0px 0px!important;
+}
+
+.jsdomenubaritemover_EDLINE_MENU {
+    border: none!important;
+    background-color: #ccc!important;
+    color: #191970!important;
+    cursor: pointer!important;
+}
+
+.zoneFrame {
+    background-color: #fff!important;
+}
+
+#ed-indexHeader,
+#edlHeaderImage {
+    visibility: hidden;
+}
+
+#ghOuterWrapperDiv {
+    will-change: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+a {
+    cursor: pointer!important;
+}
+
+#ed-navBarContainer {
+    background-color: white!important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)!important;
+    height: 20px!important;
+}
+
+.ed-bcButton.hover div span,
+.ed-bcButton.hover div.bcDiv {
+    background-image: none!important;
+    cursor: pointer!important;
+}
+
+.ed-navDivider {
+    display: none!important;
+}
+
+.ed-bcButton::after {
+    content: "> "!important;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+
+    <style>
+        @font-face {
+            font-family: "Raleway";
+            src: url("Raleway-Regular.ttf");
+        }
+        
+        body {
+            min-width: 300px;
+            background-color: #eee;
+        }
+        
+        h4,
+        p {
+            margin-bottom: 0;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    <div style="text-align: center">
+        <img src="../logo.png" width="100">
+        <h4>Edly β</h4>
+        <p><code>Version <span id="ver"></span></code></p>
+        <br>
+        <a class="button one column" id="edline" href="https://www.edline.net">Edline</a>
+        <a class="button one column" id="honor">Honor Squad</a>
+        <a class="button one column" id="changelog" href="https://edbu.readme.io">Changelog</a>
+        <a class="button one column" id="feedback" href="https://chrome.google.com/webstore/detail/edline-beautifier/pgcpglikbkpjnhmgdhigdidenhoaameh/reviews">Feedback/Rate</a>
+    </div>
+    <div id="honor-content" style="display: none; text-align: center">
+        <p><b>Honor Squad</b></p>
+        <p>Special thanks to those who provided help during the development process of this project.</p>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contribution</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eshaan Moorjani</td>
+                    <td>Testing</td>
+                </tr>
+                <tr>
+                    <td>Shrikar Vasisht</td>
+                    <td>Testing</td>
+                </tr>
+                 <tr>
+                    <td>Timothy Wen</td>
+                    <td>Testing</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="text-align: center">
+        <p><code>Another Project by <a id="mingjie" href="https://www.mingjie.info">Mingjie</a></code></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
