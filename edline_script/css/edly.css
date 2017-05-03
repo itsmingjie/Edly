@@ -65,6 +65,7 @@ span {
     background: #fff!important;
     border: none!important;
     border-radius: 4px!important;
+	height: auto!important;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)!important;
 }
 
@@ -247,10 +248,9 @@ a {
 }
 
 #ed-navBarContainer {
-    background-color: white!important;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)!important;
-    height: 20px!important;
+    display: none!important;
 }
+
 
 .ed-bcButton.hover div span,
 .ed-bcButton.hover div.bcDiv {
@@ -258,10 +258,7 @@ a {
     cursor: pointer!important;
 }
 
-.ed-navDivider {
-    display: none!important;
+#edlThemeMainZoneFrame {
+	overflow: visible!important;
 }
 
-.ed-bcButton::after {
-    content: "> "!important;
-}

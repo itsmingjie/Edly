@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css" />
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <style>
+        .notification p {
+            margin-bottom: 10px;
+        }
+        
+        .notification a:hover {
+            color: grey;
+        }
+        
+        #greet,
+        .subtitle {
+            font-weight: 500;
+        }
+    </style>
+    <title>Edly - Welcome</title>
+</head>
+
+<body style="background-color: whitesmoke">
+
+    <section class="hero is-light" style="text-align: center">
+        <div class="hero-body">
+            <div class="container">
+                <img src="../logo.png" width="128">
+                <br />
+                <sub>by Mingjie</sub>
+                <br /><br />
+                <h1 class="title">
+                    <span id="greet">We've updated Edly...</span>
+                </h1>
+                <h2 class="subtitle">
+                    Here's what's new in version
+                    <span id="edly-ver"><code>0.1.4 Beta</code></span>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="notification is-dark fadeIn" id="message">
+            <p>A short message from Mingjie, the developer of Edly...</p>
+            <p>Hi there... I hope you've been enjoying Edly. I appreciate all your support for Edly, and I'm sure that I will
+                keep maintaining this project as long as MCPS is still using this dumb tool. Modifying Edline is not easy,
+                since how they wrote it was extremely confusing. (See full explaination: <a href="https://goo.gl/uBawuW">https://archive.mingjie.info/2016/11/27/lets-talk-about-edline/</a>).</p>
+            <p>So if you like it... Please share it with your friends. I hope you do have friends. Edly will be free forever,
+                but I need to see users to keep it alive :-(</p>
+            <p>Thanks again for your support! Directly <a href="https://m.me/j.mingjie">message</a> me or shoot an email to
+                <a href="mailto:developer@mingjie.info"><i>developer@mingjie.info</i></a> if you have any suggestions, corrections,
+                or ideas!
+            </p>
+            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fpgcpglikbkpjnhmgdhigdidenhoaameh&layout=button&size=large&mobile_iframe=true&appId=671855539583700&width=72&height=28"
+                width="72" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        <h4 class="title is-4">Added:</h4>
+        <ol style="padding-left: 36px;">
+            <li>Added welcome & updated page.</li>
+            <li>Restructured code base & directory tree.</li>
+            <li>Blocked more unnecessary JavaScript from the original Edline.</li>
+        </ol>
+        <br /><br />
+        <h4 class="title is-4">Fixed:</h4>
+        <ol style="padding-left: 36px;">
+            <li>Cookie expiration problem.</li>
+            <li>Extra character in css file causing the font not loading.</li>
+        </ol>
+        <br /><br />
+        <h4 class="title is-4">What's coming:</h4>
+        <ol style="padding-left: 36px;">
+            <li>Even faster loading speed!</li>
+        </ol>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Edly</strong>. <i class="fa fa-code" style=" vertical-align: middle;"></i> with <i class="fa fa-heart"
+                        style=" vertical-align: middle;"></i> by <a href="https://www.mingjie.info">Mingjie</a>
+                </p>
+                <p>
+                    <sub>Disclaimer: Mingjie Jiang, an indepedent software developer, is not affliated with Blackboard or Edline. No school districts,
+                    schools, or private companies has funded the developer for the project, neither will them receive any
+                    permission to inspect, or hijack the source code of this project.</sub>
+                </p>
+                <p><a href="https://chrome.google.com/webstore/detail/pgcpglikbkpjnhmgdhigdidenhoaameh"><i class="fa fa-chrome" style="vertical-align: middle;"></i></a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="welcome.js"></script>
+</body>
+
+</html>
