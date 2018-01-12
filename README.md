@@ -1,12 +1,12 @@
 # Edly
 
-<a href=""><img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" width="150"></a>
+**This extension is now no longer maintained by Mingjie. It will be removed from the Chrome Web Store at any time, and the code is now archived. You may freely fork or re-develop this app.**
 
 > Aah edline made me wanna cry so bad.We finally switched to schoology this year which is a little better… I mean it was a step up from edline...
 
 Personally I’ve heard one of my teachers say “Edline is a bad tool.” It was pretty clear that it is something that everyone didn’t like...
 
-So this is created. Read my full release blog post [here](https://www.mingjie.info/blog/the-type-of-things-that-i-do?ref=github-repo).
+So this is created. Read my full release blog post [here](https://write.mingjie.info/the-type-of-things-that-i-do/?ref=github-repo).
 
 ## You can help!
 
